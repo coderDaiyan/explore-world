@@ -7,6 +7,12 @@ h3 {
 p {
   color: #487504;
 }
+#header {
+  margin-top: 20px;
+  margin: 50px;
+  color: green;
+  text-align: center;
+}
 #countries {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

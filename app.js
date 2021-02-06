@@ -9,7 +9,7 @@ fetch('https://restcountries.eu/rest/v2/all')
 
             const countryInfo = `
             <h3>${country.name}</h3>
-            <p>${country.capital}</p>
+            <p>Capital: ${country.capital}</p>
             <button onclick="displayCountryDetail('${country.name}')" class="btn btn-success">More Details</button>
             `
 
