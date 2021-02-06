@@ -1,0 +1,29 @@
+body {
+  background-color: #c3fd6c !important;
+}
+h3 {
+  color: green;
+}
+p {
+  color: #487504;
+}
+#countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.country,
+.countryDetail {
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+.countryDetail {
+  margin: auto;
+  margin-top: 50px;
+  width: 1200px;
+  display: none;
+}
+.countryDetail img {
+  width: 400px;
+}
